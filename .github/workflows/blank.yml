@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Récuperer le code
-        uses: action/chekout@v4
+        uses: actions/chekout@v4
       - name: installer python
-        uses: action/setup-python@v5
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
       - name: installer lse dependances
