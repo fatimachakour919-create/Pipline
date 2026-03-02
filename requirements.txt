@@ -1,3 +1,3 @@
 pytest
 pytest-cov
-flask8
+flake8
